@@ -1,0 +1,34 @@
+<!DOCTYPE dolgozok [
+    <!ELEMENT dolgozok (dolgozo)+>
+        <!ELEMENT dolgozo (nev, fizetes)>
+            <!ATTLIST dolgozo kod ID #REQUIRED>
+        <!ELEMENT nev (#PCDATA)>
+        <!ELEMENT fizetes (#PCDATA)>
+]>
+
+<dolgozok>
+    <dolgozo kod="D1">
+        <nev>Nemet Jozsef</nev>
+        <fizetes>500000</fizetes>
+    </dolgozo>
+    <dolgozo kod="D2">
+        <nev>Skulteti Mark</nev>
+        <fizetes>320000</fizetes>
+    </dolgozo>
+    <dolgozo kod="D3">
+        <nev>Kalotai Gergo</nev>
+        <fizetes>180000</fizetes>
+    </dolgozo>
+    <dolgozo kod="D4">
+        <nev>Donko Daniel</nev>
+        <fizetes>236000</fizetes>
+    </dolgozo>
+    <dolgozo kod="D5">
+        <nev>Kis Barnabas</nev>
+        <fizetes>295000</fizetes>
+    </dolgozo>
+    <dolgozo kod="D6">
+        <nev>Petrucz Marton</nev>
+        <fizetes>368000</fizetes>
+    </dolgozo>
+</dolgozok>

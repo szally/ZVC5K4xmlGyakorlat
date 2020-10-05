@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE iskola SYSTEM "iskola.dtd">
+
+<iskola>
+    <tanar kod="K1">
+        <nev>Kovacs Bela</nev>
+        <szak>Informatika</szak>
+    </tanar>
+    <tanar kod="K2">
+        <nev>Dr. Szakall Sandor</nev>
+        <szak>Asvany- es kozettan</szak>
+    </tanar>
+    <tantargy kod="MFFAT6101" oktato="K2">
+        <tnev>Asvany- es kozettan I.</tnev>
+        <osztaly>MF1BF</osztaly>
+    </tantargy>
+    <tantargy kod="GEIAL322-B" oktato="K1">
+        <tnev>Adatbazis rendszerek I</tnev>
+        <osztaly>G2BI1</osztaly>
+    </tantargy>
+</iskola>
